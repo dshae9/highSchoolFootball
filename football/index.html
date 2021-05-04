@@ -11,13 +11,25 @@
     <title></title>
   </head>
   <body>
+
+    <nav class="navbar">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="https://uploads-ssl.webflow.com/6057dac172a8dc510667aaf2/60887a296cd41475555b8249_Pic-5.png
+                " alt="">
+        </a>
+        <button id="inTouch" type="submit" class="btn btn-primary"><a href="#inTouch">Contact</a></button>
+        </div>
+    </nav>
     
         <div class="container">
             <div class="row">
                 <div class="jumbotron">
-                    <h1>Red Wolves Football Sign Up</h1>
-                    <p>The Red Wolves are interested in gaining students from the ages of 10-13 to recruit for their summer flag football league. </p>
-                    <button type="button" class="btn btn-outline-danger"><a href="#">Sign Up!</a></button>
+                    <div class="content">
+                        <h1>Red Wolves Football Sign Up</h1>
+                        <p>The Red Wolves are interested in gaining students from the ages of 10-13 to recruit for their summer flag football league. </p>
+                        <button type="button" class="btn btn-outline-danger"><a href="#">Sign Up!</a></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -45,15 +57,44 @@
                 </div>
             </div>
         </div>
+
+<form id="contact inTouch">
+            <h2>Interest Form</h2>
+    <div class="mb-3">
+        <label for="firstname" class="form-label">First name</label>
+        <input type="firstname" class="form-control" id="exampleInputFirstname">
+    </div>
+    <br>
+    <div class="mb-3">
+        <label for="lastname" class="form-label">Last name</label>
+        <input type="lastname" class="form-control" id="exampleInputLastname">
+    </div>
+    <br>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <br>
+    <div class="input-group mb-3">
+    <label class="input-group-text" for="inputGroupSelect01">Options</label>
+    <select class="form-select" id="inputGroupSelect01">
+        <option selected>Choose your position</option>
+        <option value="1"> QB</option>
+        <option value="2">RB </option>
+        <option value="3">CB </option>
+        <option value="4">OL </option>
+        <option value="5">LB </option>
+        <option value="6">MLB </option>
+        <option value="7">WR </option>
+        <option value="8">FB </option>
+        <option value="9"> TB</option>
+    </select>
+    </div>
   
-
-
-
-
-
-
-
-
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  
 
 
 
